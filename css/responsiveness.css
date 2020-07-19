@@ -1,0 +1,101 @@
+@media(max-width: 320px){
+    #contact-us-article h2{
+        font-size: 50px;
+    }
+    .logo img{
+        max-width: 70px;
+        height: 90px;
+    }
+}
+@media(max-width: 360px){
+    #home-article h2{
+        font-size: 50px;
+
+    }
+}
+@media(max-width: 570px){
+    .inner-footer-container{
+        text-align: center;
+    }
+}
+@media(max-width: 500px){
+    .contactus-form{
+        padding: 0;
+    }
+}
+@media(max-width: 822px){
+    .home-article-container h2{
+        font-size: 70px;
+        letter-spacing: 5px;
+    }
+}
+@media(max-width: 700px){
+    .ourservice-contents, .portfolio-contents-box{
+        flex-direction: column;
+    }
+
+    .portfolio-contents-box{
+        padding: 10px;
+    }
+
+    .ourservice-box{
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .portfolio-contents-article{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .portfolio-contents-img{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 937px){
+    .contactus-article h2{
+        font-size: 70px;
+        top: -30px;
+    }
+}
+@media(max-width: 768px){
+    .top-nav{
+        position: absolute;
+        width: 80%;
+        height: 100vh;
+        background-color: #ffffff;
+        left: -1000%;
+        top: 70px;
+        transition: 0.5s;
+    }
+    .inner-header-wrapper .top-nav.show-mobile-nav{
+        left: 0;
+    }
+    .inner-header-wrapper .top-nav ul{
+        display: block;
+        margin-top: 50px;
+
+    }
+    .inner-header-wrapper .top-nav ul li a{
+        border-bottom: 1px solid #d3d1d1;
+        padding-left: 40px;
+    }
+    .mobile-toggle{
+        display: block;
+    }
+    .inner-home-container, .inner-contactus-container{
+        flex-direction: column;
+    }
+    .home-article-container{
+        text-align: center;
+    }
+    .inner-portfolio-container{
+        top: 0;
+    }
+    .inner-ourservice-container{
+        top: 0;
+    }
+   
+}
